@@ -1,0 +1,27 @@
+<nav class="navbar navbar-expand-md navbar-light bg-dark"><!-- navbar-light= dark text  bg-dark= navbar dark style-->
+    <a href="#" class="navbar-brand"><i class="fas fa-store text-warning fa-2x"></i></a><!-- text-warning= colour-yellow  fa-2x= twice as big -->
+   <button type="button" class="navbar-toggler bg-light" data-toggle="collapse" data-target="#nav" name="button"><span class="navbar-toggler-icon"></span></button>
+    <div class="collapse navbar-collapse justify-content-between" id="nav"> <!--Collapse: hides the content when the screen is small/  justify-content-between: distribute space equally between the items-->
+      <ul class="navbar-nav"> <!--Class for unordered list-->
+          <li classs="nav-item dropdown"><a class="nav-link text-light text-uppercase font-weight-bold px-3 dropdown-toggle" href="" data-toggle="dropdown">Categories</a> <!-- px-3 = padding 3px  data-toggle=  data element en onrder the dropdown manu works-->
+            <div class="dropdown-menu"><!--dropdown-menu: This class will hide the menu-->
+              <a class="dropdown-item" href="">Category 1</a>
+              <a class="dropdown-item" href="">Category 2</a>
+              <a class="dropdown-item" href="">Category 3</a>
+              <a class="dropdown-item" href="">Category 4</a>
+              <a class="dropdown-item" href="">Category 5</a>
+            </div>
+          </li>
+          <li classs="nav-item"><a class="nav-link text-light text-uppercase font-weight-bold px-3" href="">Contact</a></li>
+          <li class="nav-item"><a class="nav-link text-light text-uppercase font-weight-bold px-3" href="">About</a></li>
+      </ul>
+      <form class="form-inline ml-3"><!--form-inline: flex property-->
+        <div class="input-group">
+          <input type="text" class="form-control" placeholder="Search">
+          <div class="input-group-append"><!--It feels the gap between the icon and the search bar-->
+            <button type="button" class="btn btn-warning" name="button"><i class="fas fa-search"></i></button>
+          </div>
+        </div>
+      </form>
+    </div>
+  </nav>
